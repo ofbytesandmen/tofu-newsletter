@@ -15,16 +15,17 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var mongojs = require('mongojs');
+var config = require('./config');
 
 //server variables
-var mongoDBName = "newsletter";
-var nodejsPort = "3000";
+var mongoDBName = config.mongoDBName;
+var nodejsPort = config.nodejsPort;
 
 //newsletter variables
-var newsletterName = "TOFU's Newsletter";
-var siteName = "TOFU";
-var newsletterDescription = "Receive more information about TOFU! Sign up below.";
-var siteURL = "http://tofu.ofbytesandmen.com";
+var newsletterName = config.newsletterName;
+var siteName = config.siteName;
+var newsletterDescription = config.newsletterDescription;
+var siteURL = config.siteURL;
 
 var app = express()
 			.use(bodyParser());
