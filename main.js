@@ -24,6 +24,7 @@ var nodejsPort = "3000";
 var newsletterName = "TOFU's Newsletter";
 var siteName = "TOFU";
 var newsletterDescription = "Receive more information about TOFU! Sign up below.";
+var siteURL = "http://tofu.ofbytesandmen.com";
 
 var app = express()
 			.use(bodyParser());
