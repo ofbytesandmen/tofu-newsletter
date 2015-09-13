@@ -6,7 +6,7 @@ a simple newsletter implemented with nodejs and mongodb.
 - nodejs (modules: express, body-parser, mongojs)
 
 ## config
-the following configuration values are currently in main.js
+the following configuration values are currently in config.js
 - set mongoDBName
 - choose a port for the app
 - change newsletterName, siteName, and newsletterDescription
